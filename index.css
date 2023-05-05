@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    text-align: center;
+    margin: 7% 0 ;
+    font-size: 50px;
+}
+
+#player_battlefield {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#computer_battlefield {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 40px;
+}
+
+    #computer_battlefield h3 {
+        margin-right: 25%;
+    }
+
+input {
+    font-size: 3rem;
+    text-align: left;
+    border-radius: 20px;
+    background-color: #FFF;
+    border: 1px dashed black;
+}
+
+img {
+    width: 10%;
+    border-radius: 25px;
+}
+
+#submit_btn {
+    text-align: center;
+}
+
+button{
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 2px #bdb09d solid;
+    background-color: papayawhip;
+    font-size: 20px;
+    color: black;
+}
